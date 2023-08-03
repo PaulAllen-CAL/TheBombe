@@ -2,6 +2,8 @@
 {
     internal static void Main(string[] args)
     {
+        Console.WriteLine($"args: {args[0]}, {args[1]}");
+
         // var input = Console.ReadLine();
         var input = args[0];
         var divisor = int.Parse(args[1]);
