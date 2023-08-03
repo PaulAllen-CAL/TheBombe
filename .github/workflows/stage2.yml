@@ -42,5 +42,8 @@ jobs:
       - name: Run a one-line script
         run: dotnet build --no-restore
 
+      - name: diagnostic
+        run: echo input is ${{ inputstring }}
+
       - name: run it
         run: dotnet run
