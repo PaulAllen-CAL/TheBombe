@@ -5,6 +5,19 @@ name: Stage2
 # Controls when the workflow will run
 on:
   # Allows you to run this workflow manually from the Actions tab
+  workflow_call:
+    inputs:
+      inputstring:
+        type: string
+        description: cough
+        required: true
+        default: SDSGGNWKJ
+      inputbase:
+        type: number
+        description: shut up
+        required: true
+        default: 9
+
   workflow_dispatch:
     inputs:
       inputstring:
