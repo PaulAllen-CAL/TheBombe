@@ -2,6 +2,7 @@
 {
     internal static void Main(string[] args)
     {
-        Console.WriteLine("Hello Calastone!");
+        var input = Console.ReadLine(); ;
+        Console.WriteLine($"I got {input}");
     }
 }
