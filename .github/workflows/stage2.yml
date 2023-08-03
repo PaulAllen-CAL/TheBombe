@@ -34,4 +34,7 @@ jobs:
         run: dotnet restore
 
       - name: Run a one-line script
-        run: dotnet build
+        run: dotnet build --no-restore
+
+      - name: run it
+        run: /bin/ls -l
