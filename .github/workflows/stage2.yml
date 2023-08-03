@@ -10,7 +10,13 @@ on:
       inputstring:
         type: string
         description: cough
+        required: true
         default: SDSGGNWKJ
+      inputbase:
+        type: number
+        description: shut up
+        required: true
+        default: 9
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
