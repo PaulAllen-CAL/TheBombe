@@ -2,11 +2,10 @@
 {
     internal static void Main(string[] args)
     {
-        Console.WriteLine($"args: {args[0]}, {args[1]}");
-
-        // var input = Console.ReadLine();
-        var input = args[0];
-        var divisor = int.Parse(args[1]);
+        var line = Console.ReadLine();
+        var tokens = line.Split(' ');
+        var input = tokens[0];
+        var divisor = int.Parse(tokens[1]);
 
         int r = 0;
         for (var i = 0; i < input.Length; ++i)
